@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ntokozo Kubheka's Memory web game</title>
+    <link rel="stylesheet" href="src/assets/styles/style.css" />
+  </head>
 
-<head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="game">
+      <div class="controls">
+        <button id="restart">restart</button>
+        <button id="set-dimension">choose grid</button>
+        <div class="stats">
+          <div class="timer">Time : 0 Secs</div>
+          <div class="moves">0 Moves</div>
+        </div>
+      </div>
 
-<meta charset="UTF-8" />
-<meta name ="viewport" content ="width=device-width, initial-scale=1.0"/>
-
-<title>Memory Game</title>
-
-<link rel="stylesheet" href="style.css"/>
-
-
-
-</head>
-<body>  
-
-<h3>Score : <span id ="result"></span><span></span></h3>
-
-
-  <div id="grid"> 
-
-</div>
-
-<script src="app.js" > </script>
-</body>
+      <div class="board-container">
+        <div class="board"></div>
+        <div class="win">You won!</div>
+      </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
 </html>
-
-
-

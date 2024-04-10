@@ -1,0 +1,27 @@
+{
+  "name": "ntokozo-kubheka-222-memory-game-in-vanilla-js-javascript",
+  "version": "1.0.0",
+  "description": "Umuzi Memory Web Game task",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jasmine ",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umuzi-org/Ntokozo-Kubheka-222-memory-game-in-vanilla-js-javascript.git"
+  },
+  "author": "Ntokozo H. Kubheka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umuzi-org/Ntokozo-Kubheka-222-memory-game-in-vanilla-js-javascript/issues"
+  },
+  "homepage": "https://github.com/Umuzi-org/Ntokozo-Kubheka-222-memory-game-in-vanilla-js-javascript#readme",
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "jsdom": "^24.0.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
